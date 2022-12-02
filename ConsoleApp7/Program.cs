@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace ConsoleApp7
+{
+    class Node
+    {
+        public int info;
+        public Node next;
+        public Node(int i, Node n)
+        {
+            info = i;
+            next = n;
+        }
+    }
+
+}
